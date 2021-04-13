@@ -4,7 +4,6 @@ import React from 'react';
 import SEO from '../components/SEO';
 
 export default function SinglePersonPage({ data: { person } }) {
-  console.log(person);
   return (
     <>
       <SEO
